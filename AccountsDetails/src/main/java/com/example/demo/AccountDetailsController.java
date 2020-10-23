@@ -2,6 +2,7 @@ package com.example.demo;
 
 
 import java.util.Arrays;
+
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -16,8 +17,6 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.client.RestTemplate;
 import org.apache.log4j.Logger;
-
-
 //import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
 
 import io.github.resilience4j.circuitbreaker.annotation.CircuitBreaker;
